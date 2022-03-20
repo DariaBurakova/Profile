@@ -59,12 +59,13 @@ padding-bottom: 30px;
     font-family: ‘Source Sans Pro’, sans-serif; 
 }
 .text{
-    color: #4c4a37; 
+    color: #363636; 
     font-family: ‘Source Sans Pro’, sans-serif; 
     font-size: 18px; 
     line-height: 32px; 
     margin: 0 0 24px; 
-    text-align: center;
+    text-align:justify;
+    padding: 15px;
 }
 .meText{
     padding: 25px;
