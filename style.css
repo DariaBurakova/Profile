@@ -1,0 +1,219 @@
+* {
+    margin: 0;
+    padding: 0;
+    }
+body {
+    font-family: "Monotype Corsiva" Cursive;
+   /*background-image: url(./img/fonsyte.jpeg);
+    background-size: cover;*/
+    background-color:#dbdbdb;
+    } 
+.container{
+padding-top: 30px;
+padding-bottom: 30px;
+ max-width: 1140px;
+  margin: 0 auto;
+  background-color:white;
+ box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.photoMe{
+    max-width: 200px;
+    border-radius: 0px 20px;
+    box-shadow: 2px 1px 5px #999999;
+    margin:15px ;
+}
+.imgAbout{
+    background-color:#5c5c5c;
+}
+.top{
+    display: flex;
+    justify-content: flex-start;
+    margin: 10px 50px;
+}
+.title{
+    padding-top: 15px;
+    color: #363636;
+     font-family: ‘Trocchi’, serif;
+      font-size: 35px; 
+      font-weight: normal;
+       line-height: 40px; 
+       text-align: center;
+}
+.titleTop{
+    font-family: ‘Trocchi’, serif;
+      font-size: 30px; 
+      font-weight: normal;
+       line-height: 48px; 
+       color: #f8f8f2; 
+}
+.contact{
+    margin: 0px auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+.info{
+    padding: 5px;
+    color: #f8f8f2; 
+    font-family: ‘Source Sans Pro’, sans-serif; 
+}
+.text{
+    color: #4c4a37; 
+    font-family: ‘Source Sans Pro’, sans-serif; 
+    font-size: 18px; 
+    line-height: 32px; 
+    margin: 0 0 24px; 
+    text-align: center;
+}
+.meText{
+    padding: 25px;
+    margin:0px auto
+}
+.titleProject{
+    color: #7c795d; 
+    font-family: ‘Source Sans Pro’, sans-serif;
+     font-size: 28px; 
+     font-weight: 400; 
+     line-height: 32px; 
+     margin: 0 0 24px;
+}
+.translet{
+    font-size: 20px;
+     font-weight: 300; 
+     color: #7c795d; 
+     text-align: center;
+     
+}
+
+.about{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20px;
+   
+}
+.aboutTop{
+    display: flex;
+    flex-direction: column;
+    margin: 10px 30px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    
+}
+.aboutTop:hover{
+    transform: scale(1.02);
+}
+.project{
+    display: flex;
+    flex-direction: column;
+    margin:50px 30px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+   padding-bottom: 20px;
+   background-image: url(./img/photosubscribe.png);
+   box-sizing: border-box;
+   background-size: cover;
+}
+.projectTwo{
+    display: flex;
+    flex-direction: column;
+    margin:50px 30px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+    padding-bottom: 20px;
+   box-sizing: border-box;
+   background-size: contain;
+   background-repeat: no-repeat;
+   background-color: aliceblue;
+   background-image:url(./img/illustration.png);
+   
+}
+.project:hover{
+    transform: scale(1.02);
+}
+.projectTwo:hover{
+    transform: scale(1.02);
+}
+.projectInfo{
+    display: flex;
+    justify-content: space-between;
+}
+.buttonCheck{
+    width: 15vh;
+    display: inline-block;
+    color: white;
+    padding: 20px 30px;
+    margin: 0 auto;
+    letter-spacing: 2px;
+    background-color: #363636;
+    border: 1px solid white;
+}
+.link{
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.buttonCheck:hover{
+    transform: scale(1.1);
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+@media(max-width:375px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+    .meText{
+        padding: 10px;
+        margin:10px auto
+    }
+    .title{
+        padding-top: 20px;
+          font-size: 30px; 
+          font-weight: normal;
+           line-height: 38px; 
+           text-align: center;
+           padding-bottom: 5px;
+    }
+    .text{
+        font-size: 15px; 
+        line-height: 25px; 
+        margin: 0 0 15px; 
+        text-align: center;
+    }
+    .buttonCheck{
+        padding: 15px 20px;
+    }
+    .contact{
+        flex-direction: column;
+       align-items: center;
+    }
+    .projectInfo{
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media(max-width:414px){
+    .about{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    } 
+    .projectInfo{
+        display: flex;
+        flex-direction: column;
+    }
+    .top{
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media(max-width:768px){
+    .contact{
+        flex-direction: column;
+       align-items: center;
+    }
+}
